@@ -6,12 +6,13 @@ import CLIENT2 from "../../assets/client2.jpg";
 // import Swiper core and required modules
 import { Pagination, Navigation, A11y } from 'swiper';
 
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation'; 
-import 'swiper/css/pagination';
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+import "swiper/swiper-bundle.min.css";
+import "swiper/swiper.min.css";
+import 'swiper/modules/effect-fade/effect-fade';
+import "swiper/modules/navigation/navigation";
+import "swiper/modules/pagination/pagination";
 
 
 const data =[
