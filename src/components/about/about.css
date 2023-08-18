@@ -73,6 +73,13 @@
 /* ==== MEDIA QUERIES (MD) ==== */
 
 @media screen and (max-width: 1024px) {
+    .about{
+        padding-top: 0;
+    }
+    .about__p{
+        display: none;
+    }
+
    .about__container{
     grid-template-columns: 1fr;
     gap: 0;
@@ -102,7 +109,12 @@
     margin: 0 auto 3rem;
     
    }
-
+   .about{
+    padding-top: 0;
+    }
+    .about__p{
+    display: none;
+    }
    .about__cards{
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
