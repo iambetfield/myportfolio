@@ -3,17 +3,15 @@ import "./testimonials.css";
 import CLIENT from "../../assets/client.jpg";
 import CLIENT2 from "../../assets/client2.jpg";
 
-// import Swiper core and required modules
-import { Pagination, Navigation, A11y } from 'swiper';
+// Core modules imports are same as usual
+import { Navigation, Pagination } from 'swiper/modules';
+// Direct React component imports
+import { Swiper, SwiperSlide } from 'swiper/swiper-react.mjs';
 
-
-import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
-import "swiper/swiper-bundle.min.css";
-import "swiper/swiper.min.css";
-import 'swiper/modules/effect-fade/effect-fade';
-import "swiper/modules/navigation/navigation";
-import "swiper/modules/pagination/pagination";
-
+// Styles must use direct files imports
+import 'swiper/swiper.scss'; // core Swiper
+import 'swiper/modules/navigation/navigation.scss'; // Navigation module
+import 'swiper/modules/pagination/pagination.scss'; // Pagination module
 
 const data =[
   {
