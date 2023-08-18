@@ -81,13 +81,14 @@ header{
    .me{
     display: none;
    }
-
+  
   
    .header__socials{
     margin-top: 2rem;
     flex-direction: row;
     position: initial;
     justify-content: center;
+    bottom: 0;
  
    }
    .header__socials::before{

@@ -112,12 +112,9 @@
    .about{
     padding-top: 0;
     }
-    .about__p{
+  
+   .about__cards{ 
     display: none;
-    }
-   .about__cards{
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
     
    }
 
