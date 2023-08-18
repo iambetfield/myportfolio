@@ -1,22 +1,17 @@
-import React, { useState } from "react";
-import { useRef} from "react";
+import React from "react";
+import {useRef} from "react";
 import "./contact.css";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import { FaTelegramPlane } from "react-icons/fa";
 import emailjs from "emailjs-com";
-import swal from 'sweetalert'
+
 
 
 
 
 const Contact = () => {
 
-/*creando mensaje de exito*/
-
-/*swal("Mensaje Enviado!", "En breve nos pondremos en contacto");*/
-
-/*================================ */
 
   const form = useRef();
 
