@@ -76,9 +76,7 @@
     .about{
         padding-top: 0;
     }
-    .about__p{
-        display: none;
-    }
+
 
    .about__container{
     grid-template-columns: 1fr;

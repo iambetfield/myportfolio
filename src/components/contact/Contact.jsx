@@ -82,7 +82,7 @@ const Contact = () => {
           ></input>
           <textarea
             name="message"
-            rows="9"
+            rows="6"
             placeholder="Your Message"
             required
             
