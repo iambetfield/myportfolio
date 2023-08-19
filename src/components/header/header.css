@@ -84,6 +84,7 @@ header{
   
   
    .header__socials{
+    margin-top: 2rem;
     flex-direction: row;
     position: initial;
     justify-content: center;
