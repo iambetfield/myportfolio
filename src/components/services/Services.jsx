@@ -89,7 +89,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Intellectual Property Protection</p>
+              <p>Intellectual Property</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
