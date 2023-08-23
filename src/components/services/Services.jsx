@@ -75,17 +75,17 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Startup Counselling</h3>
+            <h3>Technical Documentation</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Business Plan Development</p>
+              <p>Process Analysis</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Legal Structure Guidance</p>
+              <p>Regulatory Compliance</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
