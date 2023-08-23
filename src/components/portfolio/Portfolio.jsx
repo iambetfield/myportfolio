@@ -92,11 +92,11 @@ const Portfolio = () => {
           <h5>Full Stack API Rest </h5>
           <small>Spring Boot + MySQL + React on AWS</small>
           <div className="portfolio__item-cta">
-          <a href="https://github.com/iambetfield/apirest" className="btn">
+          <a href="https://github.com/iambetfield/apirest" className="btn" target="_blank">
             {" "}
             Github
           </a>
-          <a href="https://apirestfrontend.s3.us-east-2.amazonaws.com/index.html" className="btn btn-primary">
+          <a href="http://apifront.s3-website.us-east-2.amazonaws.com/" className="btn btn-primary" target="_blank">
             Live Demo
           </a>
           </div>
