@@ -5,6 +5,7 @@ import IMG from "../../assets/captura.png";
 import terravis from "../../assets/captura.png";
 import automania from "../../assets/automania.png";
 import hoobank from "../../assets/hoobank.png";
+import apirest from "../../assets/clientdb.png";
 
 const Portfolio = () => {
   return (
@@ -85,16 +86,17 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="pic1" />
+            <img src={apirest} alt="pic1" />
           </div>
-          <h3>Prompy</h3>
-          <h5>Simple site for posting prompts with social login</h5>
+          <h3>ClientDB</h3>
+          <h5>Full Stack API Rest </h5>
+          <small>Spring Boot + MySQL + React on AWS</small>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">
+          <a href="https://github.com/iambetfield/apirest" className="btn">
             {" "}
             Github
           </a>
-          <a href="https://github.com" className="btn btn-primary">
+          <a href="https://apirestfrontend.s3.us-east-2.amazonaws.com/index.html" className="btn btn-primary">
             Live Demo
           </a>
           </div>
