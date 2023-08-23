@@ -29,7 +29,11 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Minimun Viable Product</p>
+              <p>Performance Optimizations</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Minimum Viable Product</p>
             </li>
           </ul>
 
@@ -71,7 +75,7 @@ const Services = () => {
 
         <article className='service'>
           <div className='service__head'>
-            <h3>Technical Documentation</h3>
+            <h3>Business Solutions</h3>
           </div>
 
           <ul className='service__list'>
@@ -81,7 +85,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Regulatory Compliance</p>
+              <p>Process Documentation</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
