@@ -59,11 +59,11 @@ const Portfolio = () => {
           <h5>Video Call App</h5>
           <small>Spring Boot, MySQL, JS, ZegoCloud</small>
           <div className="portfolio__item-cta">
-          <a href="https://becalled.vercel.app" className="btn">
+          <a href="https://github.com/iambetfield/becalled" className="btn" target="_blank">
             {" "}
             Github
           </a>
-          <a href="https://github.com/iambetfield/becalled" className="btn btn-primary">
+          <a href="https://becalled.vercel.app" className="btn btn-primary" target="_blank">
             Live Demo
           </a>
           </div>
