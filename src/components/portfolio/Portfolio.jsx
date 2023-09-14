@@ -6,6 +6,7 @@ import terravis from "../../assets/captura.png";
 import automania from "../../assets/automania.png";
 import hoobank from "../../assets/hoobank.png";
 import apirest from "../../assets/clientdb.png";
+import becalled from "../../assets/becalled.png";
 
 const Portfolio = () => {
   return (
@@ -21,7 +22,7 @@ const Portfolio = () => {
           </div>
           <h3>Terravis</h3>
           <h5>Airbnb clone</h5>
-          <small>React, Tailwind, Prisma, MongoDB</small>
+          <small>Next JS, MongoDB, React</small>
           <div className="portfolio__item-cta">
           <a href="https://github.com/iambetfield/terravis" target="_blank" className="btn">
             {" "}
@@ -52,17 +53,17 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="pic1" />
+            <img src={becalled} alt="pic1" />
           </div>
-          <h3>NextCom</h3>
-          <h5>Ecommerce Store</h5>
-          <small>Next.js, MySQL, Prisma, React</small>
+          <h3>Becalled</h3>
+          <h5>Video Call App</h5>
+          <small>Spring Boot, MySQL, JS, ZegoCloud</small>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">
+          <a href="https://becalled.vercel.app" className="btn">
             {" "}
             Github
           </a>
-          <a href="https://github.com" className="btn btn-primary">
+          <a href="https://github.com/iambetfield/becalled" className="btn btn-primary">
             Live Demo
           </a>
           </div>
