@@ -1,6 +1,6 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/captura.png";
+import IMG from "../../assets/ecommerce.PNG";
 
 import terravis from "../../assets/captura.png";
 import automania from "../../assets/automania.png";
@@ -106,15 +106,15 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG} alt="pic1" />
           </div>
-          <h3>Spring Commerce</h3>
-          <h5>Full Ecommerce project </h5>
-          <small>Spring, MySQL, Thymeleaf</small>
+          <h3>SpringCom!</h3>
+          <h5>Full Ecommerce API</h5>
+          <small>SpringBoot, MySQL, React, Redux</small>
           <div className="portfolio__item-cta">
-          <a href="https://github.com" className="btn">
+          <a href="https://github.com/iambetfield/springcom" className="btn">
             {" "}
             Github
           </a>
-          <a href="https://github.com" className="btn btn-primary">
+          <a href="https://springcom.vercel.app/" className="btn btn-primary">
             Live Demo
           </a>
           </div>
