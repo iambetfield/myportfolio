@@ -1,12 +1,14 @@
 import React from "react";
 import "./portfolio.css";
-import IMG from "../../assets/ecommerce.PNG";
+
 
 import terravis from "../../assets/captura.png";
 import automania from "../../assets/automania.png";
 import hoobank from "../../assets/hoobank.png";
 import apirest from "../../assets/clientdb.png";
 import becalled from "../../assets/becalled.png";
+import ecommerce from "../../assets/ecommerce.png";
+
 
 const Portfolio = () => {
   return (
@@ -104,7 +106,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={IMG} alt="pic1" />
+            <img src={ecommerce} alt="pic1" />
           </div>
           <h3>SpringCom!</h3>
           <h5>Full Ecommerce API</h5>
