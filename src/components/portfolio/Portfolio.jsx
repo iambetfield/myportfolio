@@ -7,7 +7,7 @@ import automania from "../../assets/automania.png";
 import hoobank from "../../assets/hoobank.png";
 import apirest from "../../assets/clientdb.png";
 import becalled from "../../assets/becalled.png";
-import ecommerce from "../../assets/ecommerce.png";
+import ecom from "../../assets/ecom.png";
 
 
 const Portfolio = () => {
@@ -106,7 +106,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src="../../assets/ecommerce.png" alt="pic1" />
+            <img src={ecom} alt="pic1" />
           </div>
           <h3>SpringCom!</h3>
           <h5>Full Ecommerce API</h5>
