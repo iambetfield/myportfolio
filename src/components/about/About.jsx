@@ -35,7 +35,13 @@ const About = () => {
             </article>
           </div>
           <p>
-          I'm a Fullstack Developer with a legal background, merging skills mainly in Java and Next.js. My knowledge complements my aptitude for assertive communication and skilled negotiation, crafting robust and innovative web solutions. Let's collaborate and bring new projects to life!
+          I'm a Fullstack Developer in Java and React,  Lawyer and Business Analyst.
+          I excel in communication and negotiation, making me a well-rounded professional who can bridge the 
+          gap between technology and business needs.
+          My goal is to synthesize my diverse knowledge and skills to create innovative solutions 
+          that aligns the business objectives. 
+        
+           Let's connect and explore how I can add value to your projects and ventures.
           </p>
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
