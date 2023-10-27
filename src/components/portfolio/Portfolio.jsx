@@ -106,7 +106,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={ecommerce} alt="pic1" />
+            <img src="../../assets/ecommerce.png" alt="pic1" />
           </div>
           <h3>SpringCom!</h3>
           <h5>Full Ecommerce API</h5>
